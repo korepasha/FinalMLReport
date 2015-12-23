@@ -1,0 +1,93 @@
+NaiveBayes+PCA(spark): train - 0.2513, test - 0.2471
+
+LogLBFGS(spark) (numIter = default, regParam = 0, intercept = false): train - 0.3837, test - 0.3640
+
+LogLBFGS(spark) (numIter = 500, regParam = 0, intercept = false): train - 0.44, test - 0.34
+
+LogLBFGS(spark) (numIter = 100, regParam = 0.1, intercept = false): train - 0.3794, test - 0.3708
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = false): train - 0.3896, test - 0.3702
+
+LogLBFGS(spark) (numIter = 100, regParam = 0.1, intercept = true): train - 0.3793, test - 0.3718
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true): train - 0.3902, test - 0.3725
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true): train - 0.3970, test - 0.3789
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithoutMean): train - 0.3882, test - 0.3782
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithMean, against 0): train - 0.3994, test - 0.3845
+Precision(0.0) = 0.2720306513409962
+Precision(1.0) = 0.0
+Precision(2.0) = 0.2796296296296296
+Precision(3.0) = 0.46017699115044247
+Precision(4.0) = 0.3148558758314856
+Precision(5.0) = 0.4191780821917808
+Precision(6.0) = 0.343609022556391
+Recall(0.0) = 0.07411273486430063
+Recall(1.0) = 0.0
+Recall(2.0) = 0.1474609375
+Recall(3.0) = 0.6741826381059752
+Recall(4.0) = 0.34161988773055335
+Recall(5.0) = 0.5523465703971119
+Recall(6.0) = 0.3706407137064071
+Weighted precision: 0.3521778037477796
+Weighted recall: 0.384508219559766
+Weighted F1 score: 0.35164549841240345
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithMean, against 6): train - 0.3964, test - 0.3794
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithMean, against 5): train - 0.4001, test - 0.3799
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithMean, against 4): train - 0.3989, test - 0.3818
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithMean, against 3): train - 0.3954, test - 0.3735
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithMean, against 2): train - 0.3994, test - 0.3797
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithMean, against 1): train - 0.4041, test - 0.3835
+Precision(0.0) = 0.0
+Precision(1.0) = 0.23734729493891799
+Precision(2.0) = 0.2922465208747515
+Precision(3.0) = 0.46894904458598724
+Precision(4.0) = 0.3118536197295147
+Precision(5.0) = 0.42511627906976746
+Precision(6.0) = 0.3521462639109698
+Recall(0.0) = 0.0
+Recall(1.0) = 0.1419624217118998
+Recall(2.0) = 0.1435546875
+Recall(3.0) = 0.6640360766629086
+Recall(4.0) = 0.3143544506816359
+Recall(5.0) = 0.5499398315282792
+Recall(6.0) = 0.35928629359286296
+Weighted precision: 0.3531490925236386
+Weighted recall: 0.3835330175536361
+Weighted F1 score: 0.3580387050363693
+
+
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartizationWithMean, PCA500): train - 0.3952, test - 0.3790
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures+straightFeatures, standartizationWithMean): train - 0.4101, test - 0.3828
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, minmaxstandartixation): train - 0.3977, test - 0.3785
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, DCT): train - 0.4400, test - 0.3397
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, reverseFeatures = true, standartization+gaussianWeights): train - 0.3994, test - 0.3845
+
+LogLBFGS(spark) (numIter = 500, regParam = 0.1, intercept = true, scaled): train - 0.3924, test - 0.3687
+
+
+
+
+DecisionTree(spark)(maxDepth=5, maxBins=16, standardized+PCA20): train - 0.3152, test - 0.3108
+
+
+
+
+
+
+
+
+
